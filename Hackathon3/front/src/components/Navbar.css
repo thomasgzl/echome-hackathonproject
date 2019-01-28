@@ -1,0 +1,29 @@
+.nav {
+  background-color: rgb(245, 245, 245);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  z-index: 1000 !important;
+}
+
+.home:hover {
+  content: url(/images/homehover.png);
+}
+
+.community:hover {
+  content: url(/images/communityhover.png);
+}
+
+.trophees:hover {
+  content: url(/images/tropheehover.png);
+}
+
+.moncompte:hover {
+  content: url(/images/profilehover.png);
+}

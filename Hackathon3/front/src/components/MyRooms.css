@@ -1,0 +1,68 @@
+.roomsSide{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 80px 20px;
+}
+
+.MyRooms{
+  height: 100%
+}
+
+.MyRooms, .roomsRow{
+  height: 100%;
+  width: 100%;
+}
+
+.objects{
+  height: 80%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.objects::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+  padding-left: 10px;
+}
+
+.objects::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.objects::-webkit-scrollbar-thumb
+{
+	background-color: #0ae;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+	                   color-stop(.5, rgba(255, 255, 255, .2)),
+					   color-stop(.5, transparent), to(transparent));
+}
+
+.roomName{
+  margin-bottom: 50px;
+}
+.roomsSide button{
+  height: 90px;
+  width: 90px;
+  background: none;
+  border: 1px solid green;
+  border-radius: 50% !important;
+  transition: 0.6s;
+
+}
+.roomsSide button:hover{
+  background-color: green;
+  border: 1px solid lightgreen;
+  color: white;
+  transition: 0.6s;
+}
+.roomsSide button:focus{
+  background-color: #127AFA;
+  border: 1px solid rgb(15, 94, 191);
+  color: white;
+  outline: none;
+}

@@ -1,0 +1,8 @@
+.maxProgress{
+  width: 100%;
+  background-color: lightskyblue;
+}
+.progress{
+  width: 25%;
+  background-color: blue;
+}

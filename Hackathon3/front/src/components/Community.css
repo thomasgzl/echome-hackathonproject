@@ -1,0 +1,86 @@
+.community-wrap {
+  padding-top: 30px;
+}
+
+.row-community {
+  margin: 80px 0px;
+}
+
+.com-table {
+  display: flex;
+  align-items: center;
+}
+
+.com-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.col-top1 {
+  align-self: center;
+}
+
+.com-cardbody-1 {
+  background-color: #FFC200;
+  text-align: center;
+  color: rgb(51, 51, 51);
+}
+
+.com-cardbody-2 {
+  background-color: #A4A4A4;
+  color: white;
+  text-align: center;
+}
+
+.com-cardbody-3 {
+  background-color: #FF9C00;
+  color: white;
+  text-align: center;
+}
+
+.com-card-1 {
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 4px #979797;
+}
+
+.com-card-2 {
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 4px #979797;
+}
+.com-card-3 {
+  margin-bottom: 10px;
+  box-shadow: 4px 4px 4px #979797;
+}
+
+th {
+  text-align: center!important;
+  background-color: #383a38;
+  color: white;
+}
+
+td {
+  text-align: center;
+  background-color: white;
+}
+
+.bouton-classement {
+  color:#FFFFFF!important;
+  background-color: #127AFA!important;
+  border: 2px solid #127AFA;
+}
+
+.bouton-classement:hover {
+  color: #127AFA!important;
+  background-color: #FFFFFF!important;
+  transition: 0.2;
+}
+.forum-button-2 {
+  margin-bottom: 150px;
+  font-size: 1.5em!important;
+}
+
+.row-bouton-forum {
+  margin-top: -40px;
+  justify-content: center;
+}

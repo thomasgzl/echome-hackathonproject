@@ -1,0 +1,62 @@
+.objectRow{
+  margin: 10px 30px;
+  padding: 10px 0px;
+  border-radius: 8px;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  background-image: url(/images/backgroundCarte2.png);
+  background-position: center;
+  background-size: 1500px;
+}
+
+.objectRow img{
+  border-radius: 8px;
+  margin: 0px 20px;
+}
+
+.objectRow p{
+  align-self: center;
+  margin: 0px;
+}
+
+.objectRow input{
+  margin-right: 25px;
+}
+
+.hidden{
+  display: none;
+  transition: 1s;
+}
+
+.switch {
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+
+.switch:focus {
+  outline: none;
+  border: none;
+}
+
+.moreDetail{
+  position: relative;
+  margin: auto;
+  bottom: 50px;
+  background-color: rgba(255,255,255, 0);
+  border: none;
+}
+
+.fas{
+  transform: scale(2,2);
+}
+
+.fas:hover{
+  transform: scale(2.2,2.2);
+  color: rgb(35, 187, 47);
+}
+
+.moreDetail:focus{
+  outline: none;
+  border: none;
+}

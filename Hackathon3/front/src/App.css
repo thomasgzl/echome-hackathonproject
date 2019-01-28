@@ -1,0 +1,9 @@
+.App {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("/images/backgroundwhite.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}

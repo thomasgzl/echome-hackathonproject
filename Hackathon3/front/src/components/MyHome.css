@@ -1,0 +1,35 @@
+.title-h2-my-home {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+.MyHome{
+  overflow:scroll;
+  height: 100%;
+}
+.MyHome p{
+  text-align: center;
+}
+
+.titleEnd{
+  margin-bottom: 35px;
+}
+
+.row-ajouter {
+  margin-bottom: 200px;
+  justify-content: center;
+}
+
+.title-card-ajouter {
+  font-weight: bold;
+}
+
+.card-ajouter {
+  border-radius: 50px 50px!important;
+  box-shadow: 3px 3px 10px rgb(187, 184, 184);
+}
+
+.card-body-ajouter {
+  text-align: center;
+}

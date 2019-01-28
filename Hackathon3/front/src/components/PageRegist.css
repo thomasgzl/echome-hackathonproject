@@ -1,0 +1,23 @@
+.page-register-wrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.homepage-button-first2 {
+  margin-top: 20px;
+  color:#FFFFFF!important;
+  background-color: #127AFA!important;
+  border: 2px solid #127AFA;
+  padding: 10px;
+}
+
+.homepage-button-first2:hover {
+  color: #127AFA!important;
+  background-color: #FFFFFF!important;
+  transition: 0.2;
+}
+
+.h3-pageRegist {
+  margin-top: 60px;
+  text-align: center;
+}

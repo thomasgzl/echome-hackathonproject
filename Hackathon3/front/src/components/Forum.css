@@ -1,0 +1,40 @@
+.image-first {
+  width: 150px;
+  margin-right: 20px;
+}
+.forum-first {
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
+.forum-second {
+  padding-left: 60px;
+  padding-bottom: 40px;
+}
+.forum-third {
+  padding-left: 100px;
+  padding-bottom: 40px;
+}
+.title-forum {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.forum-button {
+  margin-top: 10px;
+}
+.forum-add-b {
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+.forum-button-last {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.Forum{
+  height: 100%;
+  overflow: scroll;
+}
+.fas {
+  margin-right: 15px;
+}
